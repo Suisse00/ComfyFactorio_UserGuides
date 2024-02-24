@@ -31,11 +31,15 @@ It is a **cooperative** surviving nomadic vertical map scenario-like.
 - Biters and spiters will constantly spawn south to the main train.
   - Their only objective is to destroy the main train. They will destroy everything in their way.
   - If the train is too far away from the south edge map, they will spawn in between!
-    >[!NOTE]
-    >As a result, we try to keep the main train south of the map.
-  - They spawn closer to the train by spawning nests, so destroy nests!
-    >[!NOTE]
-    >Destroying nests will spawn some enemies
+    > [!NOTE]
+    > As a result, we try to keep the main train south of the map.
+  - They spawn from the closest nests (if any) to the train
+  - Nests south of the train will spawn additional nests toward the train
+    > [!TIP]
+    > Destroy nests!
+
+    > [!NOTE]
+    > Destroying nests will spawn some enemies
   - Enemies spawning (including nests) will easily jump over defenses or void!  
     - They spawn as a group of enemies, not just once at a time.
     - Their spawning range is not the same as the vanilla Factorio, which is next to the nests. They spawn _around_ the nests.
@@ -45,7 +49,7 @@ It is a **cooperative** surviving nomadic vertical map scenario-like.
 #### Additional threads
 - Mining rocks outside of the train aura may spawn enemies
 - Worms are everywhere on the map
-- Each map zone is defended by worms, artilleries, turrets flamethrowers, and mines.
+- Each map zone is protected by a river with worms, artilleries, turrets flamethrowers, and mines
 
 ### RPG
 Each time you mine a rock, kill an enemy, build an item, you will earn some experience points.
@@ -66,9 +70,9 @@ If you leave the server, your level, experiences and points will be saved until 
 
 #### Strength
 #### Melee bonus
->[!NOTE]
-> To effectively have the melee bonus, your weapon toolbars must be empty of weapons and ammo. You can equip an armor.  
-![Image of the bottom-left toolbars where you have 3 slots for your weapons and 3 slots for ammo. All of them are empty.](images/weapon_toolbars_empty.png)
+> [!NOTE]
+> To effectively have the melee bonus, your selected weapon slot must be empty of weapons and ammo.  
+![Image of the bottom-left toolbars where you have 3 slots for your weapons and 3 slots for ammo. The first one is the selected one (it has the background red) and has no weapon nor ammo. The next 2 slots have a weapon and ammo to show you you can have weapons and ammo, just not on the current weapon slot.](images/weapon_toolbars_empty_requirement.png)
 
 ### Resources
 #### Ores
@@ -100,10 +104,13 @@ The game won't stop you from trying to fill up your inventory, especially when m
 Unfortunately, if your inventory is full, it will do damage to you on each attempt to fill it more and can lead to killing you.
 
 > [!TIP]
-> The game will warn you with a yellow warning above your character when you are close to being full.
+> The game will warn you with a yellow warning above the mining location when you are close to being full.
 
 > [!TIP]
-> Then it will warn you with a red message above your character when you are full as well as the vanilla message (and sound) about your inventory being full.
+> Then it will warn you with a red message above the mining location, when you are full, as well as the vanilla message (and sound) about your inventory being full.
+
+> [!WARNING]
+> The yellow and red messages may be hard to see because the amount of ores mined is displayed the same way at the same time.
 
 #### Your corpse
 - Will be removed after 15 minutes of his death with all his inventory.
@@ -123,9 +130,9 @@ Unfortunately, if your inventory is full, it will do damage to you on each attem
   - A mixed ores patch
   - One car (very rare)
 
-- On top of those loot, removing (mining or destroying) can spawn one of those malus:
-    >[!CAUTION]
-    >Always communicate (via ping, or/and chat) any potential danger or failure to destroy the enemies.
+- On top of those loot, removing (mining or destroying) can spawn one of those back luck:
+    > [!CAUTION]
+    > Always communicate (via ping, or/and chat) any potential danger or failure to destroy the enemies.
   - Spawn one worm, biters, spiters or a nest.   
     >[!CAUTION]
     >If you mine close to any structure, including near the train but outside the train aura, always make sure you are ready to deal with some enemies by having military gear on you. We highly suggest you make sure such a structure has turrets in case you fail at killing them.    
@@ -141,7 +148,7 @@ The item type is random per spawner.
 
 You just need to unload them!
 
-It can buffer up to 200 of such resources.
+It can buffer up to 500 of such resources.
 
 ### No landfill, use explosives!
 You will notice the map contains a lot of emptyness and water which can stop you in many ways.
@@ -155,8 +162,8 @@ The more explosives you put in the chests, the more they will transform to land,
 
 Nested explosions will also increase the range of the explosion.
 
->[!WARNING]
->The explosion will damage buildings, except for rails.
+> [!WARNING]
+> The explosion will damage buildings but not rails, vehicules or players.
 
 ### Defences
 #### South of the train
@@ -236,15 +243,15 @@ You may see a circle, with a very thin border, around the train, when the altern
 
 Within that zone:
 - You gain more XP mining
-- No malus will spawn from removing rocks, trees or wrecks.
->[!CAUTION]
->Do not forget the train is the most important thing in this game. If you mine outside the aura, but near the train, you should take extra care to deal with enemies you may spawn.
+- No back luck will spawn from removing rocks, trees or wrecks.
+> [!CAUTION]
+> Do not forget the train is the most important thing in this game. If you mine outside the aura, but near the train, you should take extra care to deal with enemies you may spawn.
 
 >[!CAUTION]
 >As a new player, do not drive any train. You may have to drive the main train if it is in immediate danger. Drive it out of the battlefield north but not more. Do not bring it as north as you can.
 
 >[!TIP]
-> If somebody is spawning pings (or doing 2-3), without any messages, it likely means the train is under immediate danger. Sometimes, such behavior also means there is a missing pole which prevents lasers from getting power for defense. In rare scenarios, biters/spiters are on the loose somewhere which can be a thread for the main train, or for power poles or mini bases.
+> If somebody is spamming pings (or doing 2-3), without any messages, it likely means the train is under immediate danger. Sometimes, such behavior also means there is a missing pole which prevents lasers from getting power for defense. In rare scenarios, biters/spiters are on the loose somewhere which can be a thread for the main train, or for power poles or mini bases.
 
 >[!CAUTION]
 >You can't unlink locomotives/wagons. In case of any doubts, ask players before doing so. The inside map is slightly different for each type of wagon and for locomotive. We want them connected in specific spots, which can lead to skipping some.
@@ -296,6 +303,10 @@ Green trees will give you iron ores once mined.
 
 Orange trees will give you copper ores once mined.
 
+Black trees will give you coal ores once mined.
+
+Gray trees will give you stone ores once mined.
+
 #### Wrecks
 Once mined they will give you items instead of ores.
 
@@ -327,9 +338,9 @@ If it is currently linked, see the ''How to unlink them'' chapter first. Then yo
 1. Locate a linked chest that is empty or not unloading a lot of items, on one of the top, or bottom, edges of the wagons.  
     ![Insite of one wagon with 16 linked chests highlighted. 4 on the top-left, 4 on the top-right, 4 on the bottom-left and 4 other on the bottom-right. Those linked chests are just next to the construcable zone.](images/Train_map_linkedchests.png)
 
-    >[!NOTE]
-    >Most of them don't care about what is unloaded.
-1. Move close enough to open his inventory.
+    > [!NOTE]
+    > Most of them don't care about what is unloaded.
+1. Move close enough to open its inventory.
 1. Note the last 4 digits in the middle part of the share name. Also note the position (top-left, top-right, bottom-left, bottom-right) and the position of the chest (between the 4 sets).  
   ![Linked chest UI where the shared name is wagon_27122873_6 in the screenshot. The middle part, 27122873, is highlighted.](images/whitechest_share_name.png)
 1. Exit the wagon, open the inventory of a linked chest then
@@ -370,7 +381,9 @@ There are various ways to help you unload your inventory into chests and furnace
 - Right mouse button: Only ores and excluding ore type from all your quick bar.
 - CTRL + Right mouse button: Fill nearby furnaces (including with fuel)
 - SHIFT + Left mouse button: Everything into filtered slots to nearby wagon/chests inventory
-- SHIFT + Right mouse button: Only ores to nearby wagon inventory
+  > [!NOTE]
+<!-- SHIFT+RMB isn't listed here since we don't use that feature and this is a quick guide -->
+  > We don't fill the wagon inventory anymore for most of the items. Be aware that being close to one may fill it.
 
 ### How to get jail/ban
 >[!CAUTION]
