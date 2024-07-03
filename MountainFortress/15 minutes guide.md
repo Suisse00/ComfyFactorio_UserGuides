@@ -18,23 +18,23 @@ It is a **cooperative** surviving nomadic vertical map scenario-like.
   >Winning gives us items and stats changes that apply to all future games.
 
 #### TLDR of the gameplay
-- We must move north to survive
+- We must move on the opposite direction from where enemies waves spawn. The enemies spawn in a random direction (north or south) on each map (that we call round).
   >[!CAUTION]
   >Except for the main train - most of the time.
-- You may help defend the train from the constant wave of enemies 
-- You may help to push north (removing rocks, making lands, killing enemies, laying rails)
-- You may mine rocks, over and over and over
-- You may build and move mini-bases
+- You may help defend the train from the constant wave of enemies.
+- You may help to push the enemies opposite direction (removing rocks, making lands, killing enemies, laying rails)
+- You may mine rocks, over and over and over.
+- You may build and move mini-bases.
 
 ### Threads
 #### Main threads
-- Biters and spiters will constantly spawn south to the main train.
+- Biters and spiters will constantly spawn toward the main train.
   - Their only objective is to destroy the main train. They will destroy everything in their way.
-  - If the train is too far away from the south edge map, they will spawn in between!
+  - If the train is too far away from the map edge where the enemies spawn, they will spawn in between!
     > [!NOTE]
-    > As a result, we try to keep the main train south of the map.
+    > As a result, we try to keep the main train close to the enemies spawn of the map.
   - They spawn from the closest nests (if any) to the train
-  - Nests south of the train will spawn additional nests toward the train
+  - Nests will spawn additional nests toward the train
     > [!TIP]
     > Destroy nests!
 
@@ -44,7 +44,8 @@ It is a **cooperative** surviving nomadic vertical map scenario-like.
     - They spawn as a group of enemies, not just once at a time.
     - Their spawning range is not the same as the vanilla Factorio, which is next to the nests. They spawn _around_ the nests.
     - The game even helps them by spawning lands.
-- The south map's south edge is constantly going away.
+- The enemies spawn edge map is constantly going away.
+- If the train is more than the equivalent of one zone, void is going faster!
 
 #### Additional threads
 - Mining rocks outside of the train aura may spawn enemies
@@ -166,12 +167,12 @@ Nested explosions will also increase the range of the explosion.
 > The explosion will damage buildings but not rails, vehicules or players.
 
 ### Defences
-#### South of the train
+#### Toward the enemies
 Use walls and turrets. Laser turrets if available.
 
 We also add capacitors nearby, capacitors can recharge your armor batteries here!
 
-Also, we build this same setup, somewhere _far_ north of the train, in case the current south defense fails. Huge mini-bases or big storages are one of the usual spots.
+Also, we build this same setup, somewhere _far_ of the train and enemies, in case the current defense fails. Huge mini-bases or big storages are one of the usual spots.
 
 ##### Early/Mid game
 A shotgun is your friend.
@@ -207,7 +208,7 @@ Will always spawn a couple of biters once destroyed. Slow capsules are your frie
 >Always communicate (via ping, or/and chat) any potential danger or failure to destroy the enemies.
 
 >[!WARNING]
-> Nests are considered a high level of danger in every case. Those that spawn south of the train, or those you spawn by mining rocks.
+> Nests are considered a high level of danger in every case. Those that spawn toward the train, or those you spawn by mining rocks.
 
 ### Special items
 
@@ -248,7 +249,7 @@ Within that zone:
 > Do not forget the train is the most important thing in this game. If you mine outside the aura, but near the train, you should take extra care to deal with enemies you may spawn.
 
 >[!CAUTION]
->As a new player, do not drive any train. You may have to drive the main train if it is in immediate danger. Drive it out of the battlefield north but not more. Do not bring it as north as you can.
+>As a new player, do not drive any train and the enemies edge map, likely near many mini-bases. When you will be able to, you may have to drive the main train if it is in immediate danger. Drive it out of the battlefield but not more. Do not bring it as far as you can.
 
 >[!TIP]
 > If somebody is spamming pings (or doing 2-3), without any messages, it likely means the train is under immediate danger. Sometimes, such behavior also means there is a missing pole which prevents lasers from getting power for defense. In rare scenarios, biters/spiters are on the loose somewhere which can be a thread for the main train, or for power poles or mini bases.
@@ -399,7 +400,7 @@ There are various ways to help you unload your inventory into chests and furnace
 - Driving the train without anyone telling you to
   >[!IMPORTANT]
   >Except if the train is under attack. Drive it away from the fight.
-- Driving the train as north as you can
+- Driving the train as far away as you can
 - Looting a body without the player consent (if he is playing)
   >[!NOTE]
   > Usually we don't care about low-value items (eg. ores)
