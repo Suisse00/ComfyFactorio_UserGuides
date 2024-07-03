@@ -52,6 +52,13 @@ It is a **cooperative** surviving nomadic vertical map scenario-like.
 - Worms are everywhere on the map
 - Each map zone is protected by a river with worms, artilleries, turrets flamethrowers, and mines
 
+### New players limitation
+The server add some restriction for new player (not trusted players, player with less than a total of 24h of game play):
+  - They can't use the deconstruct plan.
+  - They can't drive the train.
+  - They can't go to the next zone when the wave is below 200.
+  - They can't use mana.
+
 ### RPG
 Each time you mine a rock, kill an enemy, build an item, you will earn some experience points.
 
@@ -248,8 +255,8 @@ Within that zone:
 > [!CAUTION]
 > Do not forget the train is the most important thing in this game. If you mine outside the aura, but near the train, you should take extra care to deal with enemies you may spawn.
 
->[!CAUTION]
->As a new player, do not drive any train and the enemies edge map, likely near many mini-bases. When you will be able to, you may have to drive the main train if it is in immediate danger. Drive it out of the battlefield but not more. Do not bring it as far as you can.
+>[!NOTE]
+>As a new player, you won't be able to drive the train since many don't know the impact it has - allowing the enemies to spawn in between the train and the enemies edge map, likely near many mini-bases. When you will be able to, you may have to drive the main train if it is in immediate danger. Drive it out of the battlefield but not more. Do not bring it as far as you can.
 
 >[!TIP]
 > If somebody is spamming pings (or doing 2-3), without any messages, it likely means the train is under immediate danger. Sometimes, such behavior also means there is a missing pole which prevents lasers from getting power for defense. In rare scenarios, biters/spiters are on the loose somewhere which can be a thread for the main train, or for power poles or mini bases.
