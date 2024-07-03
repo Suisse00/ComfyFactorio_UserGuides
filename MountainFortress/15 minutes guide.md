@@ -1,10 +1,10 @@
 # Mountain Fortress v3
 ## 15 minutes quick guide
 >[!TIP]
->It is highly recommended to read this before playing for the first time.
+>It is highly recommended to read this before playing for the first time. If you are really lazy, only read the [hot to get jail/ban](#how-to-get-jailban).
 
 >[!CAUTION]
->Caution boxes are very important since they contain information to prevent you from getting banned.
+>Caution boxes (like this box) are very important since they contain information to prevent you from getting banned.
 
 This map isn't your typical vanilla map where your factory must grow up.
 
@@ -36,7 +36,7 @@ It is a **cooperative** surviving nomadic vertical map scenario-like.
   - They spawn from the closest nests (if any) to the train
   - Nests will spawn additional nests toward the train
     > [!TIP]
-    > Destroy nests!
+    > Destroy nests over the enemies!
 
     > [!NOTE]
     > Destroying nests will spawn some enemies
@@ -199,7 +199,7 @@ We add some defense discharge defense (that you buy from markets) in your armor 
 #### As a miner
 Shotgun is your friend.
 
-Slow capsules to keep control over nests.
+Slow capsules to keep control over enemies that spawn when destroying nests.
 
 Some armor with shields (which are more available than personal laser defense). Prefer personal laser defense if available.
 
